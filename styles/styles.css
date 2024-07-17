@@ -39,7 +39,7 @@ body {
   padding-right: 10px;
   transition: 0.5s;
 }
-[dir='rtl'] .content { padding-left: 20px; padding-right: 70px;}
+[dir='rtl'] .content { padding-left: 10px; padding-right: 70px;}
 
 ul {list-style-type: none;}
 
@@ -339,7 +339,7 @@ header .company div:nth-of-type(2) i {
   border-radius: 15px;
   background-image: url(../images/abstract.png);
   opacity: 0.1;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -431,10 +431,7 @@ header .company div:nth-of-type(2) i {
 }
 
 .chart-section .filter .filter-values div:hover,
-.chart-section .filter .filter-values div.active {
-  background: #3A6FF8;
-  cursor: pointer;
-}
+.chart-section .filter .filter-values div.active {background: #3A6FF8;cursor: pointer;}
 
 .chart-section .data-analysis,.chart-section .data-analysis ul {display: flex;}
 
@@ -618,20 +615,16 @@ header .company div:nth-of-type(2) i {
   .analysis {flex-wrap: wrap;}
 
   .sidebar:hover {
-    width: 60px;
+    width: 80%;
   }
-  .sidebar:hover + .content {padding-left: 70px;
-  }
+  .sidebar:hover + .content {padding-left: 60px;}
 
-  [dir='rtl'] .sidebar:hover + .content{
-    padding-left: 0px;
-    padding-right: 70px;
-  }
-  [dir='rtl'] header .search-input label {
-    right: 87%;
-  }
+  [dir='rtl'] .sidebar:hover + .content{padding-right: 70px; padding-left: 10px;}
+
+  [dir='rtl'] header .search-input label {right: 87%;}
   header .company {gap: 10px;}
   .analysis {flex-wrap: wrap;}
+
   .chart-section { padding: 10px;}
   .chart-section .data-analysis .timing div {gap: 0;}
   .chart-section .data-analysis ul {gap: 14px}
@@ -639,10 +632,4 @@ header .company div:nth-of-type(2) i {
   .result table tr td{ width: 125px;}
 }
 
-/*@media screen and (max-width: 768px){
-  [dir='rtl'] .sidebar{
-    position: absolute;
-  }  
-}
-*/
 @media screen and (min-width: 768.9px) and (max-width: 992px) {header {gap: 50px;}}
