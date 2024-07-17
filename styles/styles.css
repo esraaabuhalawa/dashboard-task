@@ -39,7 +39,7 @@ body {
   padding-right: 10px;
   transition: 0.5s;
 }
-[dir='rtl'] .content { padding-left: 10px; padding-right: 70px;}
+[dir='rtl'] .content { padding-left: 20px; padding-right: 70px;}
 
 ul {list-style-type: none;}
 
