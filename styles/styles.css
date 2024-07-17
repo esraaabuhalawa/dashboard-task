@@ -77,7 +77,7 @@ ul {list-style-type: none;}
 [dir='rtl'] .sidebar{
   left: auto !important;
   right: 0;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .sidebar .logo {
@@ -423,10 +423,10 @@ header .company div:nth-of-type(2) i {
   padding: 0px 15px 0px 15px;
   border-radius: 15px;
   border: 1px solid #31353F;
-  opacity: 0px;
   font-size: 10px;
   line-height: 22px;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
   transition: 0.5s;
 }
 
@@ -612,10 +612,6 @@ header .company div:nth-of-type(2) i {
 @media screen and (min-width: 579px) and (max-width: 992px) {header {gap: 50px;}}
 
 @media screen and (max-width: 992px) {
-  header .company {gap: 10px;}
-
-  .analysis {flex-wrap: wrap;}
-
   .sidebar:hover {
     width: 60px;
   }
@@ -629,12 +625,19 @@ header .company div:nth-of-type(2) i {
   [dir='rtl'] header .search-input label {
     right: 87%;
   }
+  header .company {gap: 10px;}
+  .analysis {flex-wrap: wrap;}
+  .chart-section { padding: 10px;}
+  .chart-section .data-analysis .timing div {gap: 0;}
+  .chart-section .data-analysis ul {gap: 14px}
+  .result{overflow-x: scroll; }
+  .result table tr td{ width: 125px;}
 }
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
   [dir='rtl'] .sidebar{
     position: absolute;
   }  
 }
-
+*/
 @media screen and (min-width: 768.9px) and (max-width: 992px) {header {gap: 50px;}}
