@@ -617,6 +617,7 @@ header .company div:nth-of-type(2) i {
   flex-grow: 0;
   }
   .content { 
+    flex: 0;
     width: 80%}
   header .company {gap: 10px;}
 
