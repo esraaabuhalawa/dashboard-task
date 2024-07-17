@@ -612,6 +612,10 @@ header .company div:nth-of-type(2) i {
 @media screen and (min-width: 579px) and (max-width: 992px) {header {gap: 50px;}}
 
 @media screen and (max-width: 992px) {
+  .analysis .analysis-box {
+  flex-basis: 100%;
+  flex-grow: 0;
+  }
   .content { 
     width: 80%}
   header .company {gap: 10px;}
