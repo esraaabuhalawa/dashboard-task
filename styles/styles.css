@@ -22,7 +22,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--secondary-color);
-  direction: rtl;  
   display: flex;
   position: relative;
   overflow-x: hidden !important;
