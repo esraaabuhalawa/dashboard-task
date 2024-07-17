@@ -524,7 +524,6 @@ header .company div:nth-of-type(2) i {
   background-color: var(--primary-color);
   padding: 30px;
   font-family: "Poppins", sans-serif;
-  flex-wrap: wrap;
 }
 
 .report h3,
@@ -535,7 +534,7 @@ header .company div:nth-of-type(2) i {
   margin-bottom: 24px;
 }
 
-.report .report-values {margin-bottom: 24px;}
+.report .report-values {margin-bottom: 24px;  flex-wrap: wrap;}
 
 .report .report-values-icon {
   display: flex;
