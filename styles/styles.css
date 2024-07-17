@@ -238,7 +238,7 @@ header .company div:nth-of-type(2) i {
 }
 
 .analysis .analysis-box {
-  flex-basis: 150px;
+  flex-basis: 24%;
   /*flex-grow: 1;*/
   border-radius: 15px;
   background-color: var(--primary-color);
