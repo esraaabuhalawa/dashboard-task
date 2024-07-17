@@ -524,6 +524,7 @@ header .company div:nth-of-type(2) i {
   background-color: var(--primary-color);
   padding: 30px;
   font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
 }
 
 .report h3,
