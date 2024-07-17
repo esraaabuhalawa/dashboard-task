@@ -612,6 +612,8 @@ header .company div:nth-of-type(2) i {
 @media screen and (min-width: 579px) and (max-width: 992px) {header {gap: 50px;}}
 
 @media screen and (max-width: 992px) {
+  .content { 
+    width: 80%}
   header .company {gap: 10px;}
 
   .analysis {flex-wrap: wrap;}
