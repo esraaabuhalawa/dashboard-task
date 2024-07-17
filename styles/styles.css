@@ -39,7 +39,7 @@ body {
   padding-right: 10px;
   transition: 0.5s;
 }
-[dir='rtl'] .content { padding-left: 10px; padding-right: 70px;}
+[dir='rtl'] .content { padding-left: 20px; padding-right: 70px;}
 
 ul {list-style-type: none;}
 
@@ -563,6 +563,7 @@ header .company div:nth-of-type(2) i {
 /* Responsive layout for smaller screens */
 @media (max-width: 1095px) {
   .grid-container {
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
   }
@@ -612,6 +613,10 @@ header .company div:nth-of-type(2) i {
 @media screen and (min-width: 579px) and (max-width: 992px) {header {gap: 50px;}}
 
 @media screen and (max-width: 992px) {
+  header .company {gap: 10px;}
+
+  .analysis {flex-wrap: wrap;}
+
   .sidebar:hover {
     width: 60px;
   }
